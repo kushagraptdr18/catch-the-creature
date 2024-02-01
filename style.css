@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dragon Hunter";
+    font-weight: 100;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.screen1{
+    height: 100%;
+    width: 100%;
+    background-color: #3C3633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #E0CCBE;
+    transition: all ease .3s;
+    /* border-bottom: 1px solid #E0CCBE; */
+
+}
+.screen2{
+    height: 100%;
+    width: 100%;
+    background-color: #3C3633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #E0CCBE;
+    transition: all ease .3s;
+    /* border-bottom: 1px solid #E0CCBE; */
+
+}
+.container{
+    text-align: center;
+    /* background-color: blue; */
+}
+.container button{
+    padding: 15px 30px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #E0CCBE;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #E0CCBE;
+    transition: all ease .3s;
+}
+.container button:hover{
+    background-color: #E0CCBE;
+    color: #3C3633;
+    border: 2px solid #61514b;
+}
+.container button:active{
+    scale:0.9
+}
+.elm{
+    text-align: center;
+    
+}
+.boxes{
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+   
+}
+.box{
+    width: 100px;
+    padding: 10px;
+    border: 2px solid #E0CCBE;
+    display: flex;
+    flex-direction: column;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+.elm img{
+    height: 80px;
+}
+.elm h4{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.box:hover{
+    background-color: #E0CCBE;
+    color: #3C3633;
+    border: 2px solid #61514b;
+}
+.box:active{
+    scale:0.8
+}
+
+#nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    align-items: center;
+    border-bottom: .1px solid #E0CCBE;
+    padding: 10px 20px;
+}
+.screen3{
+    height: 100%;
+    width: 100%;
+    background-color: #3C3633;
+    color: #E0CCBE;
+    transition: all ease .3s;
+    position: relative;
+    
+
+}
+#nav button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #E0CCBE ;
+    color: #E0CCBE;
+    border-radius: 10px;
+    transition: all ease .3s;
+    cursor: pointer ;
+}
+#nav button:hover{
+    background-color: #E0CCBE;
+    color: #3C3633;
+    border: 2px solid #61514b;
+
+}
+#nav button:active{
+    scale:0.8
+}
+#playground img{
+    height: 100px;
+    position: absolute;
+}
